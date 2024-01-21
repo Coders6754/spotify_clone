@@ -1,9 +1,15 @@
 import React from 'react';
+import "./Player.css";
 
 const Player = () => {
   return (
-    <div>
-      <h1>Welcome to spotify</h1>
+    <div className="player">
+      <div className="player_body">
+        {/* Sidebar */}
+        {/* body */}
+      </div>
+
+      {/* Footer */}
     </div>
   );
 }
