@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Player.css";
 import Body from './Body';
+import Footer from './Footer';
 import Sidebar from './Sidebar';
 
 const Player = () => {
@@ -11,7 +12,7 @@ const Player = () => {
         <Body />
       </div>
 
-      {/* Footer */}
+      <Footer />
     </div>
   );
 }
