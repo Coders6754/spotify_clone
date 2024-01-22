@@ -1,9 +1,10 @@
 import React from 'react';
+import "./SidebarOption.css";
 
-const SidebarOption = () => {
+const SidebarOption = ({title, Icon}) => {
   return (
-    <div>
-      
+    <div className='sidebarOption'>
+      <p>{title}</p>
     </div>
   );
 }
