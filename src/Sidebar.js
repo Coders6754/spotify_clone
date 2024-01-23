@@ -13,8 +13,11 @@ const Sidebar = () => {
       <SidebarOption Icon={HomeIcon} title="Home" />
       <SidebarOption Icon={SearchIcon} title="Search" />
       <SidebarOption Icon={LibraryMusicIcon} title="Your Library" />
+      <br />
+      <strong className="sidebar__title">PLAYLISTS</strong>
       <hr />
-      <strong className="sidebar__title">PLAYLIST</strong>
+
+      
     </div>
   );
 }

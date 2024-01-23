@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, } from 'react';
 import './App.css';
 import Login from './Login';
 import { getTokenFromUrl } from './spotify';
@@ -35,10 +35,17 @@ function App() {
           type: 'SET_USER',
           user: user
         });
-      })
+      });
+
+      spotify.getUserPlaylists().then((playlists) => {
+        dispatch({
+          type: "SET_PLAYLISTS",
+          playlists: playlists,
+        })
+      });
     }
-  }, [token]);
-  
+  },);
+
 
   return (
     <div className="app">
