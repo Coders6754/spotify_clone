@@ -14,6 +14,7 @@ const Sidebar = () => {
       <SidebarOption Icon={SearchIcon} title="Search" />
       <SidebarOption Icon={LibraryMusicIcon} title="Your Library" />
       <hr />
+      <strong className="sidebar__title">PLAYLIST</strong>
     </div>
   );
 }
